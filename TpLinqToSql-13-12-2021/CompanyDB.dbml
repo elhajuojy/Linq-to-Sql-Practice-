@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="CompanyDB" Class="CompanyDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ELHAJUOJY-LAPTO\MEHDI;Initial Catalog=CompanyDB;Integrated Security=True" SettingsObjectName="TpLinqToSql_13_12_2021.Properties.Settings" SettingsPropertyName="CompanyDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Employee" Member="Employees">
+    <Type Name="Employee">
+      <Column Name="EmpID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EmpName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="Job" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="HireDate" Type="System.DateTime" DbType="SmallDateTime" CanBeNull="true" />
+      <Column Name="Salary" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="DeptNO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Department_Employee" Member="Department" ThisKey="DeptNO" OtherKey="DeptID" Type="Department" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Department" Member="Departments">
+    <Type Name="Department">
+      <Column Name="DeptID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="DeptName" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="Locaction" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Association Name="Department_Employee" Member="Employees" ThisKey="DeptID" OtherKey="DeptNO" Type="Employee" />
+    </Type>
+  </Table>
+</Database>

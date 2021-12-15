@@ -1,0 +1,11 @@
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\bin\Debug\TpLinqToSql-13-12-2021.exe.config
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\bin\Debug\TpLinqToSql-13-12-2021.exe
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\bin\Debug\TpLinqToSql-13-12-2021.pdb
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql-13-12-2021.csproj.AssemblyReference.cache
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql-13-12-2021.csproj.SuggestedBindingRedirects.cache
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql_13_12_2021.Properties.Resources.resources
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql-13-12-2021.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql-13-12-2021.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql-13-12-2021.exe
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql-13-12-2021.pdb
+C:\Users\pc\Desktop\tdi\2eme ans 203\ADO.NET\Linq\TpLinqToSql-13-12-2021\TpLinqToSql-13-12-2021\obj\Debug\TpLinqToSql_13_12_2021.LinqToSql.resources
