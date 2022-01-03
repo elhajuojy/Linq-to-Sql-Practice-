@@ -19,9 +19,10 @@ namespace TpLinqToSql_13_12_2021
             InitializeComponent();
         }
         CompanyDBDataContext db = new CompanyDBDataContext();
+
         
-        //Table<Employee> emp;
-        e
+        
+        
 
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -32,7 +33,6 @@ namespace TpLinqToSql_13_12_2021
 
             var reqSelect = (from jobs in db.Employees select jobs.Job).Distinct();
 
-          
 
             //comboBox1.DataSource = db.Employees.ToList();
             //comboBox1.DisplayMember = "Job";
@@ -70,14 +70,14 @@ namespace TpLinqToSql_13_12_2021
         private void button3_Click(object sender, EventArgs e)
         {
             string str1 = string.Empty ;
-            foreach (string strcheck in checkedListBox1.CheckedItems)
-            {
-                liststr.Add(strcheck);
-            }
-            for(int i = 0; i < liststr.Count - 2; i++)
-            {
-                str1 += "emp." + liststr[i] + ",";
-            }
+            //foreach (string strcheck in checkedListBox1.CheckedItems)
+            //{
+            //    liststr.Add(strcheck);
+            //}
+            //for(int i = 0; i < liststr.Count - 2; i++)
+            //{
+            //    str1 += "emp." + liststr[i] + ",";
+            //}
             str1+="emp."+liststr[liststr.Count - 1];
             Object obj=new Object();
             obj = str1.Replace("\"",""); 
@@ -160,6 +160,36 @@ namespace TpLinqToSql_13_12_2021
         private void button7_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Employee emp = new Employee();
+
+            emp.EmpID =int.Parse( textcin.Text);
+            emp.EmpName = textcin.Text;
+            emp.DeptNO = int.Parse(textdepa.Text);
+            emp.Salary = decimal.Parse(textSalarie.Text);
+            emp.Job = Textfonction.Text;
+            db.SubmitChanges();
+
+
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            textcin.Text= String.Empty;
+            textdepa.Text= String.Empty;
+            textNom.Text= String.Empty;
+            textSalarie.Text= String.Empty;
+            Textfonction.Text= String.Empty;
+            timeEmp.Text= String.Empty;
+            btnSave.Text = "Save";
         }
     }
 }
